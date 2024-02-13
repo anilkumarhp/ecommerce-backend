@@ -5,7 +5,6 @@ class EcommerceBackendException(Exception):
         super().__init__(self.message)
 
 
-# write EcommerceBackendSqlException exception inheriting EcommerceBackendException
 class EcommerceBackendSqlException(EcommerceBackendException):
     pass
     
